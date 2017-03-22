@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Galax-IT : Inscription de profil</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+    
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+  
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+  
+  <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
+  <link href="favicon.ico" rel="shortcut icon">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate-css/animate.min.css" rel="stylesheet">
+  
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  
+<!-- =======================================================
+  Theme Name: Imperial
+  Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
+  Author: BootstrapMade.com
+  Author URL: https://bootstrapmade.com
+======================================================= -->
+</head>
+    <body>
+        
+           <!--==========================
+  Header Section
+============================-->
+  <header id="header">
+    <div class="container">
+    
+      <div id="logo" class="pull-left">
+        <a href="#hero"><img src="img/logoclear.png" alt="" title="" /></a>
+        <!-- Uncomment below if you prefer to use a text image -->
+        <!--<h1><a href="#hero">Header 1</a></h1>-->
+      </div>
+        
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="index.html">Accueil</a></li>
+          <li class="menu-has-children"><a href="carriere.html">Espace Carrière</a></li>
+          <li><a href="carriere.html#carriere">Retour aux offres</a></li>
+         
+           <li class="menu-has-children">
+          <a href="#"><b>Login</b></a>
+            <ul id="login-dp" class="dropdown-menu">
+		<li>
+		 <div class="row">
+                    <div class="col-md-12">
+		<form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+			<div class="form-group input-group">
+                           <span class="input-group-addon" style="padding:10px;"><i class="fa fa-envelope"></i></span>
+                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Votre Email" required>
+			</div>
+			<div class="form-group input-group">
+                           <span class="input-group-addon" style="padding:10px;"><i class="fa fa-lock"></i></span>
+                            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Votre mot de passe" required>
+                            </div>
+                            <div class="help-block text-right"><a href="">Mot de passe oublié ?</a></div>
+			
+			<div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block">Log in</button>
+			</div>
+			<div class="checkbox">
+                            <label><input type="checkbox"> keep me logged-in</label>
+			</div>
+		</form>
+                    </div>
+                    <div class="bottom text-center">Nouveau ? <a href="#"><b>Inscrivez-vous</b></a></div>
+		</div>
+		</li>
+        </ul>
+           
+      </nav><!-- #nav-menu-container -->
+              
+    </div>
+  </header><!-- #header -->
+  <section id="profil">
+  <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+            <h1>Inscription</h1>
+        <div class="panel panel-primary">
+      
+      <div class="panel-body">
+          <p>Veuillez compléter le formulaire ci-dessous:</p>
+
+      <form data-toggle="validator" role="form">
+       <div class="form-group has-feedback">
+    <label for="titre" class="control-label">Titre du profil</label>
+    <input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="50" class="form-control" 
+           id="titre" placeholder="Description de votre profil (ex. Developpeur web 5 ans d'expérience)" required>
+ <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+    <div class="help-block with-errors"></div>
+  </div>
+          <div class="row">
+              <div class="col-md-6">
+          <div class="form-group has-feedback">
+    <label for="dispo" class="control-label">Quand seriez-vous disponible?</label>
+    <input type="date" pattern="^[_A-z0-9]{1,}$" maxlength="50" class="form-control" 
+           id="dispo" placeholder="jj/mm/yyyy" required>
+ <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+    <div class="help-block with-errors"></div>
+          </div></div>
+          <div class="col-md-6">
+          <div class="form-group has-feedback">
+    <label for="cv" class="control-label">Chargez votre CV (Word, PDF)</label>
+    <input type="file" pattern="^[_A-z0-9]{1,}$" maxlength="50" class="form-control" 
+           id="cv" placeholder="jj/mm/yyyy" required>
+ <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+    <div class="help-block with-errors"></div>
+          </div></div>    
+          </div>  
+          
+          <h3 class="dark"><i class="fa fa-user"></i> Informations personnelles</h3>
+  <div class="row">
+      <div class="col-md-6">
+          <div class="form-group has-feedback">
+    <label for="nom" class="control-label">Nom</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-user"></i></span>
+    <input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="25" class="form-control" 
+           id="nom" placeholder="Votre nom" required>
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span></div>
+    <div class="help-block with-errors"></div>
+  </div>
+  <div class="form-group has-feedback">
+    <label for="prenom" class="control-label">Prénom</label>
+     <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-user"></i></span>
+    <input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="25" class="form-control" 
+           id="prenom" placeholder="Votre prénom" required>
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span></div>
+    <div class="help-block with-errors"></div>
+  </div>  </div>  
+      <div class="col-md-6">
+  <div class="form-group has-feedback">
+    <label for="naissance" class="control-label">Date de naissance</label>
+    <input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="15" class="form-control" 
+           id="naissance" placeholder="jj/mm/yyyy" required>
+ <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+    <div class="help-block with-errors"></div>
+  </div>        
+  <div class="form-group has-feedback">
+      <label for="genre" class="control-label">Genre</label><br/>
+    <label class="radio-inline"><input type="radio" name="genre" required>Homme</label>
+<label class="radio-inline"><input type="radio" name="genre" required>Femme</label>
+  </div>  
+      </div></div>
+       <div class="col-md-6">   
+    <h3 class="dark"><i class="fa fa-home"></i> Coordonnées</h3>
+  <div class="form-group has-feedback">
+    <label for="adresse" class="control-label">Adresse</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-home"></i></span>
+    <input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="50" class="form-control" 
+           id="adresse" placeholder="Votre adresse" required>
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span></div>
+    <div class="help-block with-errors"></div>
+  </div>
+  <div class="form-group has-feedback">
+    <label for="codepostal" class="control-label">Code Postal</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-home"></i></span>
+    <input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="15" class="form-control" 
+           id="codepostal" placeholder="Code postal" required>
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span></div>
+    <div class="help-block with-errors"></div>
+  </div>        
+   <div class="form-group has-feedback">
+    <label for="ville" class="control-label">Ville</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-home"></i></span>
+    <input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="15" class="form-control" 
+           id="ville" placeholder="Ville" required>
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span></div>
+    <div class="help-block with-errors"></div>
+  </div>       
+   <div class="form-group">
+  <label for="pays">Choisissez un pays:</label>
+  <select class="form-control" id="pays">
+    <option selected>France</option>
+    <option>Belgique</option>
+    <option>Suisse</option>
+    <option>Luxembourg</option>
+  </select>
+</div>
+    <div class="form-group has-feedback">
+    <label for="inputEmail" class="control-label">Email</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+    <input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Cette adresse n'est pas valide" required>
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span></div>
+    <div class="help-block with-errors"></div>
+  </div>
+     <div class="form-group has-feedback">
+    <label for="portable" class="control-label">Numéro de portable</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+    <input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="15" class="form-control" 
+           id="portable" placeholder="Votre numéro de portable">
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span></div>
+    <div class="help-block with-errors"></div>
+  </div> 
+    <div class="form-group has-feedback">
+    <label for="fixe" class="control-label">Numéro de fixe</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+    <input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="15" class="form-control" 
+           id="fixe" placeholder="Votre numéro de téléphone fixe">
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span></div>
+    <div class="help-block with-errors"></div>
+  </div>    
+    <div class="form-group has-feedback">
+    <label for="web" class="control-label">Site web</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-globe"></i></span>
+    <input type="url" class="form-control" id="web" placeholder="Votre site web ou GitHub" data-error="Cette adresse n'est pas valide">
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span></div>
+    <div class="help-block with-errors"></div>
+  </div>
+    <div class="form-group has-feedback">
+    <label for="linkedin" class="control-label">LinkedIn</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-linkedin-square"></i></span>
+    <input type="url" class="form-control" id="linkedin" placeholder="Votre page Linkedin" data-error="Cette adresse n'est pas valide">
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span></div>
+    <div class="help-block with-errors"></div>
+  </div>
+    <div class="form-group has-feedback">
+    <label for="viadeo" class="control-label">Viadeo</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-viadeo-square"></i></span>
+    <input type="url" class="form-control" id="viadeo" placeholder="Votre page Viadeo" data-error="Cette adresse n'est pas valide">
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span></div>
+    <div class="help-block with-errors"></div>
+  </div>
+     <div class="form-group has-feedback">
+    <label for="skype" class="control-label">Skype</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-skype"></i></span>
+    <input type="url" class="form-control" id="skype" placeholder="Votre page Skype" data-error="Cette adresse n'est pas valide">
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span></div>
+    <div class="help-block with-errors"></div>
+  </div>
+    <div class="form-group has-feedback">
+    <label for="inputTwitter" class="control-label">Twitter</label>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-twitter-square"></i></span>
+      <input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="15" class="form-control" id="inputTwitter" placeholder="Votre pseudo Twitter" required>
+    </div>
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+    <div class="help-block with-errors"></div>
+  </div>
+     <div class="form-group has-feedback">
+    <label for="doyoubuzz" class="control-label">DoYouBuzz</label>
+    <input type="url" class="form-control" id="doyoubuzz" placeholder="Votre page DoYouBuzz" data-error="Cette adresse n'est pas valide">
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+    <div class="help-block with-errors"></div>
+  </div>
+    <h3 class="dark"><i class="fa fa-code"></i> Vos compétences</h3>
+    <p>Cochez les compétences qui vous correspondent puis dites-nous en plus ci-dessous : </p>
+    <div class="checkbox">
+  <label><input type="checkbox" value=""><i class="fa fa-html5"></i> HTML</label>
+</div>
+<div class="checkbox">
+  <label><input type="checkbox" value=""><i class="fa fa-coffee"></i> Java</label>
+</div>
+<div class="checkbox">
+  <label><input type="checkbox" value=""><i class="fa fa-archive"></i> Bases de données</label>
+</div>
+    <div class="form-group has-feedback">
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+    <h3 class="dark"><i class="fa fa-hdd-o"></i> Technologies et Infrastructures</h3>
+    <div class="form-group has-feedback">
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+     <h3 class="dark"><i class="fa fa-laptop"></i> Réalisations</h3>
+    <div class="form-group has-feedback">
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+     <h3 class="dark"><i class="fa fa-graduation-cap"></i> Certifications et Formation</h3>
+    <div class="form-group has-feedback">
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+      <h3 class="dark"><i class="fa fa-line-chart"></i> Projet d'évolution</h3>
+    <div class="form-group has-feedback">
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+   <h3 class="dark"><i class="fa fa-lock"></i> Mot de passe</h3>
+   <p>Chez Galax-IT, vous pouvez à chaque instant modifier votre profil. Pour cela, nous vous demandons 
+       de choisir un mot de passe qui vous permettra d'accéder à votre profil</p>
+  <div class="form-group">
+    <label for="inputPassword" class="control-label">Mot de passe</label>
+    <div class="form-inline row">
+      <div class="form-group col-sm-6">
+        <input type="password" data-minlength="6" class="form-control" id="inputPassword" placeholder="Mot de passe" required>
+        <div class="help-block">Minimum 6 caractères</div>
+      </div>
+      <div class="form-group col-sm-6">
+        <input type="password" class="form-control" id="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Les mots de passe ne correspondent pas" placeholder="Confirmez le mot de passe" required>
+        <div class="help-block with-errors"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary">Inscription</button>
+  </div>
+</form>
+      </div>
+    </div>
+</div></div></div>
+  </div>
+  </section>
+         <!-- Required JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/morphext/morphext.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/stickyjs/sticky.js"></script>
+  <script src="lib/easing/easing.js"></script>
+  
+  <!-- Template Specisifc Custom Javascript File --> 
+  <script src="js/custom.js"></script>
+   <!-- Bootstrap Validator css -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.js"></script>
+    </body>
+</html>
